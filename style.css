@@ -17,4 +17,22 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 5px;
+}
+
+.contacts {
+    font-size: 16px;
+    color: #212121;
+    text-align: center;
+}
+
+.contacts__title {
+    margin-bottom: 10px;
+}
+
+.contacts__content {
+    background-color: #212121;
+    color: #ffbc2f;
+    padding: 5px 30px;
+    text-decoration: none;
 }
