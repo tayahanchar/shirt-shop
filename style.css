@@ -2,8 +2,11 @@ html, body {
     width: 100%;
 }
 
-.header {
+.section-header {
     height: 100vh;
     min-height: 650px;
-    background-color: orange;
+    background-image: url(content/bg/background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
