@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Alegreya";
+    src: url(fonts/Alegreya_Sans/AlegreyaSans-Black.ttf) format("truetype");
+}
+
+
 html, body {
     width: 100%;
 }
@@ -58,4 +64,8 @@ body {
     background-position: center center;
     background-size: contain;
     height: 100%;
+}
+
+.header-text {
+    font-family: "Alegreya";
 }
