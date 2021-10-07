@@ -113,3 +113,41 @@ ul {
 ul > li {
     list-style: none;
 }
+
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.filter__item {
+    margin-right: 40px;
+}
+
+.filter__item:last-child {
+    margin-right: 0;
+}
+
+
+.filter__link {
+    display: inline-block;
+    padding: 10px 21px 5px 21px;
+    font-family: 'Yanone Kaffeesatz', Arial, sans-serif;
+    text-transform: uppercase;
+    color: #1b1b1b;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.filter__link:hover {
+    color: #d82727;
+}
+
+
+.filter__item--active .filter__link {
+    color: #ffbc2f;
+    background-color: #1b1b1b;
+}
+
