@@ -3,6 +3,13 @@
     src: url(fonts/Alegreya_Sans/AlegreyaSans-Black.ttf) format("truetype");
 }
 
+:root {
+    --yellow:#ffbc2f;
+    --red: #d82727;
+    --black: #212121;
+    --titleFonts: 'Yanone Kaffeesatz', Arial, sans-serif;
+}
+
 
 html, body {
     width: 100%;
@@ -12,7 +19,7 @@ body {
     font-size: 16px;
     line-height: 1.42;
     font-family: "Roboto", Arial, sans-serif;
-    color: #212121;
+    color: var(--black);
 }
 
 .wrapper {
@@ -50,7 +57,7 @@ body {
 
 .contacts__content {
     background-color: #212121;
-    color: #ffbc2f;
+    color: var(--yellow);
     padding: 5px 30px;
     text-decoration: none;
 }
@@ -98,7 +105,7 @@ body {
 
 
 .header-text__word--color-yellow {
-    color: #ffbc2f;
+    color: var(--yellow);
 }
 
 .header-text__word:nth-child(2n) {
@@ -133,21 +140,21 @@ ul > li {
 .filter__link {
     display: inline-block;
     padding: 10px 21px 5px 21px;
-    font-family: 'Yanone Kaffeesatz', Arial, sans-serif;
+    font-family: var(--titleFonts);
     text-transform: uppercase;
-    color: #1b1b1b;
+    color: var(--black);
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
 }
 
 .filter__link:hover {
-    color: #d82727;
+    color: var(--red);
 }
 
 
-.filter__item--active .filter__link {
-    color: #ffbc2f;
-    background-color: #1b1b1b;
-}
+/* .filter__item--active .filter__link {
+    color: var(--yellow);
+    background-color: var(--black);
+} */
 
