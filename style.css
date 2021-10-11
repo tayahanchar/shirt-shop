@@ -153,8 +153,7 @@ ul > li {
 }
 
 
-/* .filter__item--active .filter__link {
-    color: var(--yellow);
-    background-color: var(--black);
-} */
-
+.container {
+    margin: 0 auto;
+    width: 1300px;
+}
