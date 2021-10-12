@@ -321,7 +321,7 @@ ul > li {
     min-height: 474px;
     flex: 1;
     overflow: hidden;
-    background: url(./content/bg/pattern.png) center / 500px;
+    background: url(content/bg/pattern.png) center / 500px;
     position: relative;
 }
 
@@ -334,11 +334,11 @@ ul > li {
 }
 
 .collections__item--men::before {
-    background-image: url(./content/collections/collection_man.png);
+    background-image: url(content/collections/collection_man.png);
 }
 
 .collections__item--women::before {
-    background-image: url(./content/collections/collection_woman.png);
+    background-image: url(content/collections/collection_woman.png);
 }
 
 
