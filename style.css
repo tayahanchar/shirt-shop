@@ -307,4 +307,57 @@ ul > li {
     grid-row: 4 / 5;
 }
 
+.collections {
+    margin-top: 160px;
+    margin-bottom: 130px;
+}
 
+.collections__list {
+    display: flex;
+    gap: 30px;
+}
+
+.collections__item {
+    min-height: 474px;
+    flex: 1;
+    overflow: hidden;
+    background: url(./content/bg/pattern.png) center / 500px;
+    position: relative;
+}
+
+.collections__item::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 43%;
+    background: center / contain no-repeat;
+}
+
+.collections__item--men::before {
+    background-image: url(./content/collections/collection_man.png);
+}
+
+.collections__item--women::before {
+    background-image: url(./content/collections/collection_woman.png);
+}
+
+
+.collections__link {
+    padding: 74px 10% 74px 44%;
+    font-size: 15px;
+}
+
+.collections__desc {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.collections__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: var(--titleFonts);
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 0.9;
+    text-transform: uppercase;
+}
