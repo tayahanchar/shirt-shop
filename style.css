@@ -19,6 +19,7 @@ body {
     line-height: 1.42;
     font-family: "Roboto", Arial, sans-serif;
     color: var(--black);
+    background: #fcf5e6;
 }
 
 .wrapper {
@@ -397,4 +398,43 @@ ul > li {
     margin-bottom: 40px;
     font-size: 15px;
     color: #737373;
+}
+
+.banner {
+    display: flex;
+    margin-bottom: 95px;
+}
+
+.banner__column {
+    flex: 1;
+}
+
+.banner__column--left {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: var(--titleFonts);
+    background: #232323;
+    padding: 39px 0;
+    line-height: 1;
+}
+
+.banner__best {
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner__column--right {
+    background: url(content/bg/pattern.png) center / 500px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: var(--titleFonts);
+    padding: 39px 0;
+    line-height: 1;
+}
+
+.banner__ch {
+    text-decoration: none;
+    color: var(--black);
 }
